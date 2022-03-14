@@ -1,0 +1,390 @@
+.header{
+    background: linear-gradient(to bottom, #3eb07d 0%,#3eb07d 100%);
+    padding: .5rem;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    z-index: 1;
+    
+}
+.header a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main{
+    padding-top: 8rem;
+    
+}
+
+body{
+    background-image: url("../image/bck.jpg");
+    background-repeat: repeat-y;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    text-align: justify;
+    margin: 10px;
+    
+}
+body div
+{   
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+/*Se encarga de mostrar el contenido a x ancho pero que no eseda x canditad de pixeles*/
+.container{
+    width: 80%;
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+/*Espacio del logo entre imagenes de emcabezado */
+.Espaciado--logo--texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+}
+/*podemos darle un estilo a la lista y posicicion con display*/
+.estilolista{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.estilolista ul li{  
+     display: inline-block; /*realiza la lista de forma lineal*/
+}
+.estilolista ul li a{
+    padding: 1.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.estilolista ul li a:hover{
+    background: rgb(0, 88, 69);
+}
+/*-------------------------------------------------------*/
+.relative
+{   
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(136, 136, 136);
+}
+/*titulo de webhospital*/
+.titu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #3eb07d;
+    position: absolute;
+    top:  150px;
+    left: 100px;
+    text-decoration: underline;
+    
+}
+.comba{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #333;
+    position: absolute;
+    top:  80px;
+    left: 100px;
+}
+.imagen1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px; 
+    filter: drop-shadow(0px 1px 3px);
+}
+.agenda/*para el link de agenta*/{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #333;
+    position: absolute;
+    top:  210px;
+    left: 100px;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    
+}
+/*agregamos un efecto de aninacion con transition le cual aplicara cuando ocupemos hover*/
+/*hover aplica al pasar el mouse sobre el, aplica un efecto*/
+.agenda:hover{
+    background: rgba(0, 88, 69, 0.486);
+    
+    
+}
+/* cuadro de texto para agenda*/
+.agendabox{ 
+    background-color: rgba(33, 218, 147, 0.15);
+    height:65px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(136, 136, 136);
+    position: absolute;
+    left: 75px;
+    bottom: 35px;
+}
+.agendabox ul/* quita el estilo de la lista en columas*/
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.agendabox ul li{
+    display: inline;
+    padding: 40px;
+    
+}
+/*========================================s2*/
+.s2{   
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 450PX;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(136, 136, 136);
+    display: flex;
+    align-items: center;
+    
+}
+
+.ventajasbox{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(136, 136, 136, 0.5);
+    width: 200px;
+    height: 300px;
+}
+.s3{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #3eb07d;
+}
+/*alineando los h5*/
+.s2 h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: #3eb07d;
+    text-align: left;
+    line-height: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+/*estilo del texto*/
+.s2 p{
+    font-size: small;
+    line-height : 15px;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.s2image{
+    position: absolute;
+    top:   170px;
+    right: 70px;
+}
+/*PARTE 3*/
+
+.fondoendiv{
+    background: linear-gradient(to bottom, #10c68f 0%,#16a278 86%);
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    
+}
+.doc2{
+    filter: drop-shadow(0px 1px 3px);
+    position: absolute;
+    left: 0; 
+    bottom: 0;
+}  
+/* Generar botones despegables*/
+.titusalud{
+    
+    position: absolute;
+    top: 5px;
+    right: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #3eb07d;
+}
+.titusal2{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 500px;
+    height: 100px;
+    line-height: 17px;
+    font-size: small;
+    text-align: justify;
+    top: 40px;
+    left: 200px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.botones{
+          
+        width: 300px;
+        height: 250px;
+        /* background-color: #f1f1f1; */
+          /*margin: auto;*/	
+          box-shadow: 7px 13px 37px rgba(0, 0, 0, .5);   
+          position: absolute;
+          top: 90px;
+          left: 400px;
+}
+section p {
+    font-size: small;
+    overflow: hidden;
+    max-height: 0px;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    background: #e4e4e4;
+    transition: all 0.2s ease-in;
+    line-height : 12px;
+    
+  }
+  section a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #3eb07d;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: medium;
+  }
+  
+section:target p {
+    max-height: 150px;
+    padding: 0px;
+  }
+/*SECCION 4*/
+.fondoendiv2{
+    background: linear-gradient(to bottom, #10c68f 0%,#16a278 86%);
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    
+}
+.nurse{
+    filter: drop-shadow(0px 1px 3px);
+    position: absolute;
+    right: 0; 
+    bottom: 0;
+}  
+
+/*cuadros emergencia*/
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    background-color: DodgeBlue;
+    padding: 5px;
+    padding-top: 50px;
+  }
+  .contenedor-grid > div {
+    background-color: #ffffff;
+    box-shadow: 7px 8px 27px rgba(0, 0, 0, .5);
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  .myButton {
+	background-color:#45c78d;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#2cbd70;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+    margin-top: 10px;
+    height: 150px;
+    font-size: medium;
+}
+.pie ul{
+    text-align: justify;
+    width: 200px;
+    margin-right: 90px;
+    
+}
+.pie ul li{
+    text-decoration: none;
+    list-style: none;
+    text
+}
+
+.pie ul li a{
+    padding: .5rem rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.pie ul li a:hover{
+    background: rgb(0, 88, 69);
+}
+
+
+.p2{
+    color: #3eb07d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
