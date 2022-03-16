@@ -4,154 +4,224 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebHospital</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Vaccination</title>
+    <script src="https://kit.fontawesome.com/3bc89bb397.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" href="assets/icon.png">
 </head>
 <body>
-
-    <header class="header">
-        <div class="container Espaciado--logo--texto">
-            <a href="#"> <img src="../image/logoblan.png" alt="WebHospital" width="200px" height="80px"></a>
-            <nav class="estilolista">
-                <ul class>               
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Clientes</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
- <!--Primera seccion de la pagina-->   
-    <div class="relative">
-    <p class="comba">Combate los virus con </p>   
-    <p class="titu">WebHospital</p>
-    <a class="agenda" href="https://calendar.google.com">Agenda con Nosotros</a>
-    
-    <img src="./image/7.png" alt="" width="250px" class="imagen1">
-        
-        <div class="agendabox">
+    <header>
+        <nav>
+            <h3>Vaccination</h3>
             <ul>
-                <ul>
-                <li>Ubicación</li>
-                <li> Fecha</li>
-                <li>Vacuna</li>
-                </ul>
-                <ul>
-                <li>Veracruz,Ver</li>
-                <li>14/03/2022</li>
-                <li>SPUTNIK</li>
-                </ul>
+                <li>Database</li>
+                <li>Education</li>
+                <li>News</li>
+                <li>Regulation</li>
+                <li class="element-button">HoaxBuster</li>
             </ul>
-        </div>
-    </div>
-  <!--BANER INFERIOR NOMBRE VACUNAS-->   
-
-    <div class="s2 relative">
-            
-            <p class="s3 ">Ventaja de Vacunarte?</p>
-            <div class="ventajasbox relative">
-            <h5>Minimiza los efectos de los viruz</h5> 
-            <p>Al vacunarse generas protección contra los sintomas, reduciendo en gran medida los efectos del viruz.</p>
-            <img class="s2image"src="./image/icon1.png" alt="" width="50px">
+        </nav>
+    </header>
+    <main>
+        <section class="section-divided">
+            <div class="section-information">
+                <div class="information-content">
+                    <h1>Figth Virus<br>With Vaccines</h1>
+                    <p>Let´s stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+                    <ul>
+                        <li><i class="fa-solid fa-shield icon-inicio"></i>Best protection</li>
+                        <li><i class="fa-solid fa-star icon-inicio"></i>Selected Vaccines</li>
+                    </ul>
+                    <h4><i class="fa-solid fa-clock icon-schedule"></i>Schedule your vaccinations</h4>
+                    <div class="schedule">
+                        <div class="schedule-section">
+                            <h5><i class="fa-solid fa-location-dot icon-schedule"></i>Location</h5>
+                            <h4>Jakarta Utara</h4>
+                        </div>
+                        <div class="schedule-section">
+                            <h5><i class="fa-solid fa-calendar-days icon-schedule"></i>Date</h5>
+                            <h4>08 July 2021</h4>
+                        </div>
+                        <div class="schedule-section">
+                            <h5><i class="fa-solid fa-syringe icon-schedule"></i>Vaccine Type</h5>
+                            <h4>Moderna</h4>
+                        </div>
+                        <div class="schedule-section schedule-btn">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="ventajasbox relative">
-            <h5>Forma aticuerpos</h5>
-            <p>Al vacunate tu cuerpo se adapta y genera anticuerpos que combaten el viruz</p>
-            <img class="s2image"src="./image/icon2.png" alt="" width="50px">
+            <div class="section-image">
+                <img src="assets/nurse.webp" alt="Nurse preparing a vaccine">
             </div>
-
-            <div class="ventajasbox relative">
-            <h5>Protege tu alrededor</h5>
-            <p>Al estar vacunado ayudas protegiendo a tus seres queridos y personas al rededor de ti.</p>
-            <img class="s2image" src="./image/icon3.png" alt="" width="50px">
+        </section>
+        <section class="section-vaccines">
+            <div class="image-container">
+                <img src="assets/AstraVaccine.svg" alt="logo of AstraZeneca">
             </div>
-
-  
-    </div>
-    <!--PARTE 3-->
-
-    <div class="relative">
-        
-            <div class="fondoendiv"></div>
-            <img class="doc2" src="./image/doctor.png" alt="" width="230px">
-            <div>
-
-        </div>
-<!--Botones despegables-->
-        <h2 class="titusalud"> Como preparte para vacunarte?</h2>
-        <div class="titusal2">
-        <p>El exito de la vacuna esta fuertemente influenciada por la fortaleza del sistema inmune. Por lo tanto, existen multiples tareas que podemos intentar para que la vacuna funcione:</p>
-        </div>
-        <div class="botones">
-            <section id="menu1">
-                <a href="#menu1">Evita Bebidas alcoholicas</a>
-                <p>No se recomienda tomar bebidas alcoholicas antes o despues de vacunarse, ya que podria generar una reacción no deseada.</p>
-            </section>
-            <section id="menu2">
-                <a href="#menu2">Evita el estress</a>
-                <p>El estrés aumenta la presión arterial. El estrés aumenta la inflamación en su cuerpo. El estrés puede aumentar el colesterol y los triglicéridos en la sangre. </p>
-            </section>
-    
-            <section id="menu3">
-                <a href="#menu3">Come saludable</a>
-                <p>Beneficios de una alimentación saludable · Disminución del riesgo de padecer enfermedades cardiovasculares a largo plazo, ayudando a reducir el colesterol (LDL).</p>
-            </section>
-    
-            <section id="menu4">
-                <a href="#menu4">Dormir lo suficiente</a>
-                <p>"El dormir mantiene todos los aspectos del cuerpo de una forma u otra: el equilibrio energético y molecular, así como también la función intelectual, el estado de alerta y el humor"</p>
-            </section>
-            <section id="menu5">
-                <a href="#menu5">Actividades Fisicas</a>
-                <p>La incorporación a la rutina diaria de una actividad física constante y moderada induce una serie de cambios fisiológicos en el organismo que van más allá del hecho de quemar calorías, reducir grasa y mantener la masa muscular. Además de favorecer la pérdida de peso y mejorar la relación con la comida y el propio organismo.</p>
-            </section>
-
-        </div>
-    </div>
-<!--EMERGENCIA-->
-    
-    <div class="relative">
-        <div class="fondoendiv2"></div>
-        <img class="nurse" src="./image/nurse.png" alt="" width="230px">   
-        <div class="contenedor-grid">
-            <div><p>Emergencia 911</p><img src="./image/icon4.png" alt="" width="80px" height="50px"></div>
-            <div><a href="#" class="myButton">Chat</a><img src="./image/icon5.png" alt="" width="80px" height="50px"></div>
-
-        </div>
-    </div>
-    
+            <div class="image-container">
+                <img src="assets/SinovacVaccine.svg"  alt="logo of Sinovac">
+            </div>
+            <div class="image-container">
+                <img src="assets/PfizerVaccine.svg"  alt="logo of Pfizer">
+            </div>
+            <div class="image-container">
+                <img src="assets/modernaVaccine.svg"  alt="logo of Moderna">
+            </div>
+        </section>
+        <section class="section-question">
+            <div class="question-content">
+                <h2>Why should I vaccine?</h2>
+                <p>In order to avoid any doubts getting the COVID-19 vaccine,
+                identify the following 4 benefits of COVID-19 vaccination:
+                </p>
+            </div>
+        </section>
+        <section class="section-benefits">
+            <div class="benefit-item">
+                <i class="fa-solid fa-sliders icon-question"></i>
+                <h4>Minimize the spread of viruses</h4>
+                <p>Vaccine has been proven affective to prevent someone from
+                    getting infected with Coronavirus
+                </p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-shield icon-question"></i>
+                <h4>Forming antibodies</h4>
+                <p>COVID-19 vaccine proven to help shape antibody response for immune system
+                </p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-users icon-question"></i>
+                <h4>Proctecting people nearby</h4>
+                <p>The benefits of COVID-19 vaccination are the vaccine that we get can also
+                    help protect people aroud us</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-chart-line icon-question"></i>
+                <h4>Creating group immunity</h4>
+                <p>COVID-19 vaccination is also beneficial for creating group immunity of herd 
+                    immunity
+                </p>
+            </div>
+        </section>
+        <section class="section-preparations">
+            <div class="section-image">
+                <img src="assets/woman.webp" alt="A woman just for ilustration">
+            </div>
+            <div class="section-information">
+                <div class="preparation-content">
+                    <h2>Preparations Before Vaccine</h2>
+                    <p>The succes of vaccines is strongly influenced by the strength 
+                        of the body´s immune system. Therefore, there are several things that
+                        can be tried to make the COVID-19 vaccine work:
+                    </p>
+                    <ul class="preparation-list">
+                        <li><i class="fa-solid fa-circle-xmark icon-preparation"></i>Avoid alcoholic beverages</li>
+                        <li><i class="fa-solid fa-square-xmark icon-preparation"></i>Avoid stress</li>
+                        <li><i class="fa-solid fa-square-poll-vertical icon-preparation"></i>Eat healthy food</li>
+                        <li><i class="fa-solid fa-square-check icon-preparation"></i>Get enough sleep</li>
+                        <li><i class="fa-solid fa-heart icon-preparation"></i>Excercise or physical activity</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact">
+            <div class="section-information">
+                <div class="preparation-content">
+                    <h2>Preparations Before Vaccine</h2>
+                    <p>The succes of vaccines is strongly influenced by the strength 
+                        of the body´s immune system. Therefore, there are several things that
+                        can be tried to make the COVID-19 vaccine work:
+                    </p>
+                    <div class="contact-container">
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-phone icon-contact"></i>
+                                <h4>Call</h4>
+                                <p>021.123.145.14</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Call Now</button>
+                            </div>
+                        </div>
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-comment-dots icon-contact"></i>
+                                <h4>Chat</h4>
+                                <p>021.123.145.14</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Chat Now</button>
+                            </div>
+                        </div>
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-video icon-contact"></i>
+                                <h4>Video Call</h4>
+                                <p>021.123.145.14</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Video Call Now</button>
+                            </div>
+                        </div>
+                        <div class="contact-element">
+                            <div class="contact-type">
+                                <i class="fa-solid fa-envelope icon-contact"></i>
+                                <h4>Message</h4>
+                                <p>021.123.145.14</p>
+                            </div>
+                            <div class="contact-button">
+                                <button>Message Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-image">
+                <img src="assets/man.webp" alt="A man just for ilustration">
+            </div>
+        </section>
     </main>
-
-    
-    
-    <footer class="pie">
-
-        <ul>
-            <li><p class="p2">Vacunacion</p></li>
-            <p></p>Nuestro objetivo es ayudar a un mundo libre de Covid-19</p>
-        </ul>
-        <ul><p class="p2"> Acerca de</p>
-        <li><a href="#">Sobre nosotros</a></li>
-        <li><a href="#">Caracteristicas</a></li>
-        <li><a href="#">Noticias y blog</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Preguntas comunes</a></li>
-            <li><a href="#">Centro de soporte</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>    
-        <p>@2022 WebHospital. Todos los derechos reservados</p>
-        <p>Terminos y condiciones. Politica de privacidad.</p>
-    </footer> 
-
-
-
-    
-
+    <footer>
+        <div class="footer-vaccination">
+            <h3>Vaccination</h3>
+            <p>Our goal is to help the world free from the ongoing pandemic</p>
+        </div>
+        <div class="footer-information">
+            <div class="footer-element">
+                <h4>About</h4>
+                <ul>
+                    <li>About us</li>
+                    <li>Features</li>
+                    <li>News&Blog</li>
+                </ul>
+            </div>
+            <div class="footer-element">
+                <h4>Company</h4>
+                <ul>
+                    <li>How we work?</li>
+                    <li>Capital</li>
+                    <li>Security</li>
+                </ul>
+            </div>
+            <div class="footer-element">
+                <h4>Support</h4>
+                <ul>
+                    <li>FAQs</li>
+                    <li>Support Center</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </div>
+        <p class="p1">@2021 Vaccination.All rights reserved</p>
+        <div class="p2">
+            <p>Terms & Agreements</p>
+            <p>Privacy Policy</p></div>
+    </footer>
 </body>
 </html>
-
